@@ -1,8 +1,22 @@
 
 h1 {
     color: pink;
-    font-family:helvetica;
-    font-size:300pt;
+    font-family: 'VT323', monospace;
+;
+    font-size:455pt;
+    line-height:300pt;margin-top: 0px;
 
 
   }
+
+.rotate {
+  transform:rotate(90deg);
+}
+
+#image1 {
+  width: 500px; margin-left: 30px;
+}
+#image2 {
+  width:400px;
+  position:absolute; margin-top:100px;margin-left:150px;
+}
